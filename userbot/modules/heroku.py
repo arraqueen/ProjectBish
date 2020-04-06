@@ -114,6 +114,7 @@ async def dyno_manage(dyno):
             except IndexError:
                 AppQuotaUsed = 0
                 AppPercentage = 0
+                continue
             finally:
                 AppHours = math.floor(AppQuotaUsed / 60)
                 AppMinutes = math.floor(AppQuotaUsed % 60)
