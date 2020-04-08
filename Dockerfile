@@ -50,7 +50,7 @@ freetype2-demos
 #
 # Clone repo and prepare working directory
 #
-RUN git clone -b master https://github.com/adekmaulana/ProjectBish /home/projectbish/
+RUN git clone -b master https://github.com/arraqueen/userbot /home/projectbish/
 RUN mkdir /home/projectbish/bin/
 WORKDIR /home/projectbish/
 #
